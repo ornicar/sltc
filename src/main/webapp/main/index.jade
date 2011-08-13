@@ -1,0 +1,33 @@
+- attributes("titlePre") = ""
+- attributes("titleSep") = ""
+- attributes("description") = "Didactique de l'information-documentation et identité professionnelle de l'enseignant documentaliste. Site de Pascal Duplessis"
+- attributes("bodyClass") = "home"
+
+.row
+  .eightcol
+    .home_featured featured articles here
+    .home_overview overview here
+  .fourcol.last
+
+    .side_search.small_search search form here
+
+    .side_story story here
+
+    span.title
+      a(href={uri("/table-ronde")}) Table Ronde
+    div blog small list here
+    a.all_others(href={uri("/table-ronde")}) &gt; autres articles
+
+    span.title Ailleurs
+    a(href="/photo.url")
+      img(src="photo.image" alt="photo.title")
+    p.metadata photo.image.legend
+    a.all_others(href={uri("/photo.url")}) &gt; photo.title
+    br/
+    a.all_others(href={uri("http://esmeree.fr/blanc-cerf")}) &gt; Le Blanc Cerf
+
+    .home_tags
+      span.title
+        a(href={uri("/tags")}) Tags
+      div tag cloud here
+      a.all_others(href={uri("/tags")}) &gt; autres tags

@@ -1,0 +1,19 @@
+- response.setContentType("text/html") 
+-@ var titlePre: String 
+-@ var titleSep: String = " - "
+-@ var titlePost: String = "Les Trois Couronnes - Didactique de l'Information Documentation"
+-@ var title: String = Seq(titlePre, titleSep, titlePost).mkString
+-@ var description: String 
+-@ var body: String 
+-@ var bodyClass: String = ""
+!!! 5
+html(lang="fr")
+  head
+    meta(content="text/html; charset=utf-8" http-equiv="Content-Type")
+    meta(content={description} name="description")
+    meta(content="Pascal Duplessis" name="author")
+    meta(content="width=device-width, initial-scale=1.0" name="viewport")
+    title= title
+  body(class="{bodyClass}")
+    div#screen.container
+      !~~ body

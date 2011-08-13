@@ -5,9 +5,7 @@ import scalate.ScalateSupport
 class MainFilter extends ScalatraFilter with ScalateSupport {
 
   get("/") {
-    val templatePath = "WEB-INF/scalate/templates/test.jade"
-    //val templatePath = "/WEB-INF/scalate/templates/test.jade"
-    templateEngine.layout(templatePath)
+    templateEngine.layout("/WEB-INF/scalate/main/index.jade")
   }
 
   notFound {
