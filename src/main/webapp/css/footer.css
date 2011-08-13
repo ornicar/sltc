@@ -1,0 +1,27 @@
+#footer {
+    margin-bottom: 20px;
+}
+#footer div.row {
+    margin-top: 30px;
+    padding-top: 30px;
+    background: url(data:image/png;base64,R0lGODlhSAABAIAAAP///2ZmZiH5BAEHAAAALAAAAABIAAEAAAINDG54kLwNn1TU1XhXAQA7) top repeat-x;
+}
+#footer .right {
+    float: right;
+    text-align: right;
+}
+#footer .left {
+}
+#footer .menu {
+}
+#footer .menu a {
+    color: #444;
+    text-decoration: none;
+}
+#footer .menu a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+#footer .search label {
+    display: block;
+}

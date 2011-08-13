@@ -1,0 +1,108 @@
+body {
+    background-color: #fff;
+    color: #505050;
+    border-top: 3px solid #991010;
+    font: 100%/1.45 Georgia, Serif;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix {display:inline-block;}
+a {
+    text-decoration: none;
+    color: #803000;
+}
+a:hover {
+    text-decoration: underline;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+h2 {
+    font-weight: bold;
+}
+h2 a {
+    color: #222;
+}
+a.more {
+    text-decoration: underline;
+}
+.readable {
+    line-height: 2;
+}
+.readable h2 {
+    line-height: 1.6;
+}
+.title {
+    font: 1.6em "OFL Sorts Mill Goudy","Palatino","Georgia",serif;
+    color: #991010;
+    line-height: 2;
+}
+.title a {
+    color: #991010;
+}
+.title.big {
+    font-size: 2.2em;
+}
+.title.long {
+    line-height: 1.2;
+}
+.title.shy {
+    font-size: 1.4em;
+    color: #444;
+    line-height: 1.5;
+}
+
+.metadata, .undertitle {
+    font-size: 80%;
+    color: #a0a0a0;
+    font-style: italic;
+}
+.small {
+    font-size: 90%;
+}
+.soft, .title a.soft {
+    color: #666;
+}
+.overflowed {
+    overflow: hidden;
+}
+.all_others {
+    display: block;
+    text-align: right;
+    color: #888;
+    margin-top: -1em;
+}
+.nice_list li {
+    color: #aaa;
+    list-style: disc outside;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.author_image {
+    float: left;
+    margin-right: 2em;
+}
+body.search form.search input.query {
+    width: 70%;
+    font-size: 1.5em;
+    padding: 0.2em 0.3em;
+}
+input.query.hinted {
+    color: #888;
+}
+body.search form.search input.submit {
+    font-size: 1.5em;
+    padding: 0.2em 0.3em;
+}
+body.search .search .result {
+    margin-top: 1em;
+}
+.small_search input {
+    padding: 0.2em 0.3em;
+}
+.small_search input.query {
+    width: 85%;
+}

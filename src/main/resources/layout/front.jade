@@ -6,6 +6,9 @@
 -@ var description: String 
 -@ var body: String 
 -@ var bodyClass: String = ""
+
+- val stylesheets = List("/css/reset.css", "/css/font.css", "/css/grid.css", "/css/core.css", "/css/story.css", "/css/markdown.css", "/css/header.css", "/css/footer.css", "/css/home.css", "/css/doc.css", "/css/tag.css")
+
 !!! 5
 html(lang="fr")
   head
@@ -14,6 +17,9 @@ html(lang="fr")
     meta(content="Pascal Duplessis" name="author")
     meta(content="width=device-width, initial-scale=1.0" name="viewport")
     title= title
-  body(class="{bodyClass}")
+    - for (s <- stylesheets)
+      link(href={uri(s)} rel="stylesheet" type="text/css")
+
+  body(class={bodyClass})
     div#screen.container
       !~~ body

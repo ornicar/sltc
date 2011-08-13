@@ -1,0 +1,101 @@
+.doc_preview header {
+    margin-bottom: 0.5em;
+}
+.doc_image, .doc_image {
+    float: left;
+    margin-right: 1.6em;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+.doc_view .doc_image {
+    max-width: 351px;
+}
+.doc_preview .doc_image {
+    max-width: 252px;
+}
+.doc_image .legend {
+    overflow: hidden;
+    font-size: 70%;
+    color: #888;
+}
+.doc_image .legend a {
+    color: #888;
+    text-decoration: underline;
+}
+.doc_image img {
+    margin-bottom: 0;
+}
+
+ul.doc_small_list li {
+    margin-bottom: 1em;
+}
+
+.doc_list .doc_preview_with_metas {
+    margin: 10px 0 30px 0;
+    padding-bottom: 30px;
+    background: url(data:image/png;base64,R0lGODlhSAABAIAAAP///2ZmZiH5BAEHAAAALAAAAABIAAEAAAINDG54kLwNn1TU1XhXAQA7) bottom repeat-x;
+    position: relative;
+}
+.doc_list .doc_preview_with_metas:last-child {
+    background: none;
+}
+.doc_list .doc_preview_with_metas div.metas {
+    position: absolute;
+    width: 355px;
+    left: -400px;
+    text-align: right;
+}
+.doc_list .doc_preview_with_metas div.metas .metadata {
+    font-size: 100%;
+}
+.doc_list .doc_preview_with_metas div.metas li {
+    list-style: none;
+}
+
+.doc_view header {
+    margin-bottom: 1.5em;
+}
+.doc_view img.doc_image {
+    width: 22.15%;
+}
+.doc_view .summary {
+    font-style: italic;
+    margin-bottom: 2em;
+}
+.doc_view .body {
+    margin-bottom: 2em;
+}
+.meta_block {
+    margin-bottom: 2em;
+}
+.hidden_list {
+    position: relative;
+}
+.hidden_list_container {
+    float: left;
+    display: inline;
+}
+.hidden_list .trigger {
+    padding: 0 19px 1em 0;
+    background: url('/img/arrow_down.png') no-repeat;
+    background-position: right +2px;
+}
+.hidden_list .trigger:hover {
+    text-decoration: none;
+}
+.hidden_list .article_link_list {
+    position: absolute;
+    top: 2em;
+    left: -99999px;
+    background: white;
+    z-index: 999;
+    padding: 0.5em;
+    border: 1px solid #a0a0a0;
+    font-size: 90%;
+    -moz-box-shadow:6px 6px 9px #999999;
+	-webkit-box-shadow:6px 6px 9px #999999;
+	box-shadow:6px 6px 9px #999999;
+}
+.hidden_list_container:hover .article_link_list {
+    left: 0px;
+}
