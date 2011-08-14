@@ -1,4 +1,4 @@
-package doc.model
+package sltc.doc.model
 
 trait Title {
   val title: String

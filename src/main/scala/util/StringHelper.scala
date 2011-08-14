@@ -1,4 +1,4 @@
-package util
+package sltc.util
 
 object StringHelper extends StringHelper
 

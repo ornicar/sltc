@@ -6,9 +6,7 @@
 	version="2.4">
 	<filter>
 		<filter-name>scalatra</filter-name>
-		<filter-class>
-			MainFilter
-		</filter-class>
+		<filter-class>sltc.filter.MainFilter</filter-class>
 	</filter>
 
 	<filter-mapping>

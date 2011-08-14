@@ -1,6 +1,6 @@
-package doc.model
+package sltc.doc.model
 
-import util.StringHelper
+import sltc.util.StringHelper
 
 trait Slug extends Title {
   val slug: String

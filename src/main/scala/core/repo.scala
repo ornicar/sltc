@@ -1,4 +1,4 @@
-package core
+package sltc.core
 
 import com.novus.salat._
 import com.novus.salat.global._

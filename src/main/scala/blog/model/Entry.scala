@@ -1,7 +1,7 @@
-package blog.model
+package sltc.blog.model
 
-import doc.model._
-import util.StringHelper.slugify
+import sltc.doc.model._
+import sltc.util.StringHelper.slugify
 import org.scala_tools.time.Imports.DateTime
 
 case class Entry(

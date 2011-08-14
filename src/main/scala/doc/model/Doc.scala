@@ -1,4 +1,4 @@
-package doc.model
+package sltc.doc.model
 
 import org.scala_tools.time.Imports.DateTime
 

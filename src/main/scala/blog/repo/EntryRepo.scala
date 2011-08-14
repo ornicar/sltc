@@ -1,7 +1,7 @@
-package blog.repo
+package sltc.blog.repo
 
-import core.Repo
-import blog.model.Entry
+import sltc.core.Repo
+import sltc.blog.model.Entry
 import com.novus.salat._
 import com.novus.salat.global._
 import com.mongodb.casbah.Imports._
